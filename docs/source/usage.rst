@@ -14,6 +14,7 @@ Case 1: Certificate manager
 * initialize the certificate manager: asceds-certmanager-setup -w
 * configure the client (Case 2 below)
 * customize the website: 
+
   * edit the apache2 site configuration file typically in
     /etc/apache2/sites-available/asceds.conf
   * decide on the authentication and add the right .htaccess
