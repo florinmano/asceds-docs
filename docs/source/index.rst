@@ -5,10 +5,8 @@ Welcome to ASCEDS's documentation!
 for interfacing certbot with InCommon SSL certificates, 
 and automatically distributing them to the servers on the network.
 
-This software assists with setting up an automatic SSL certificate
-distribution system for certificates which can be obtained from a provider
-offering an ACME interface. 
-The system consists of:
+This software assists with setting up an automatic SSL certificate distribution system for certificates which can be obtained from a provider offering an ACME interface. 
+The system consists of
 * a certificate manager which can get SSL certificates for wildcard 
   hostnames in a set of domains, through certbot;
 * a set of clients getting automatic certificate renewal or simple manual
