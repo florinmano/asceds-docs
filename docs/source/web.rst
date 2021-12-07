@@ -1,6 +1,3 @@
-Website
-=======
-
 .. _notes:
 
 
