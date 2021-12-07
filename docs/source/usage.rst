@@ -37,6 +37,7 @@ Certificates
 ------------
 
 # on cert manager
+
 .. code-block:: console
    /etc/letsencrypt/live/${DOMAIN_NAME}/ --> /etc/asceds/home/${DOMAIN_NAME}/
        for unmanaged clients --> /usr/share/asceds/cert/keys/${ASCEDS_CERT_ID}/
@@ -45,6 +46,7 @@ Certificates
    cert.pem      : certificate alone
 
 # on client
+
 .. code-block:: console
    privkey.pem --> PRVKEY=/etc/ssl/private/${CLIENT_DOMAIN_NAME}.key
    chgrp ssl-cert ${PRVKEY}
