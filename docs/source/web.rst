@@ -1,10 +1,18 @@
-Important notes:
+Website
+=======
+
+.. _notes:
+
+
+Important Notes
 
 1. The public alias/dir is supposed to be unsecured.
 
 2. If the website is not located at the root of the URL, the link to
    public/authorized_keys in asceds_cert.php may not work properly (test
    scenarios).
+
+.. _web:
 
 Website
 =======
