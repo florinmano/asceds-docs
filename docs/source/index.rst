@@ -26,4 +26,5 @@ Contents
 
    usage
    build
+   web
    api
