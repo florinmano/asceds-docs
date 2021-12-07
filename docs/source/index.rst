@@ -1,7 +1,7 @@
 Welcome to ASCEDS's documentation!
 ===================================
 
-**ASCEDS** (/lu'make/) is Certificate Distribution System Developed by Florin Manolache at Carnegie Mellon University for interfacing certbot with InCommon SSL certificates, and automatically distributing them to the servers on the network.
+**ASCEDS** is Certificate Distribution System Developed by Florin Manolache at Carnegie Mellon University for interfacing certbot with InCommon SSL certificates, and automatically distributing them to the servers on the network.
 
 This software assists with setting up an automatic SSL certificate distribution system for certificates which can be obtained from a provider offering an ACME interface. 
 The system consists of
