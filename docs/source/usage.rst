@@ -1,7 +1,7 @@
 Usage
 =====
 
-.. _installation:
+.. _quickstart:
 
 
 Quick start
