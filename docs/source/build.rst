@@ -1,7 +1,7 @@
 Build
 =====
 
-.. _installation:
+.. _build:
 
 Installation
 ------------
