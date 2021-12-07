@@ -26,9 +26,11 @@ Case 1: Certificate manager
 * add authorized users: asceds-web-user -a <username>
 
 Case 2: Client
+
 * install asceds (no need for snap or certbot)
 * get info: certificate manager name, root password/sudo account/password
 * asceds-init -n -s <your.cert.manager>
+
   -n --> generates a new certificate
 
 Certificates
