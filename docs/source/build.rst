@@ -3,8 +3,8 @@ Build
 
 These scripts perform two functions
 
-# create build for the intended platform 
-# transfer build output to cert.mcs.cmu.edu:/usr/share/asceds/<platform>
+    # create build for the intended platform 
+    # transfer build output to cert.mcs.cmu.edu:/usr/share/asceds/<platform>
 
 .. note::
 
