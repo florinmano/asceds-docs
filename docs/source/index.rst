@@ -35,8 +35,7 @@ Contents
 
 .. toctree::
 
+   quickstart
    usage
    build
    web
-   api
-   chains

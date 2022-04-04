@@ -1,5 +1,3 @@
-.. _notes:
-
 
 Important Notes
 
@@ -8,8 +6,6 @@ Important Notes
 2. If the website is not located at the root of the URL, the link to
    public/authorized_keys in asceds_cert.php may not work properly (test
    scenarios).
-
-.. _web:
 
 Website
 =======

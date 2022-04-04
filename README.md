@@ -1,3 +1,7 @@
+This is a documentation setup for the ASCEDS project. It uses sphinx (a dcoumentationi library based on python) to build html docs from .rst (restructured text) files. We use a free service https://www.readthedocs.io to make the docs publicly accessible.
+
+
+
 Local build instructions
 ========================
 

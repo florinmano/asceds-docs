@@ -3,15 +3,13 @@ Build
 
 These scripts perform two functions
 
-    # create build for the intended platform 
-    # transfer build output to cert.mcs.cmu.edu:/usr/share/asceds/<platform>
+    1. create build for the intended platform 
+    2. transfer build output to cert.mcs.cmu.edu:/usr/share/asceds/<platform>
 
 .. note::
 
-This project is under active development.
+    This project is under active development.
 
-
-.. _build:
 
 * asceds-build-arch
 * asceds-build-arch-dev
