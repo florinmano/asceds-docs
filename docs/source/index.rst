@@ -24,7 +24,7 @@ and automatically distributing them to the servers on the network.
 ASCEDS is released under GPLv2 or any later version.
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to :ref:`install` the project.
 
 .. note::
 
