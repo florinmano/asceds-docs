@@ -39,3 +39,4 @@ Contents
    build
    web
    api
+   chains
