@@ -20,5 +20,19 @@ This should output the built html pages. Open build/html in your file explorer a
 
 
 
+Remote setup instructions
+=========================
+Follow these instructions to setup the docs website.
+
+1. Sign in to readthedocs.io using your github oauth.
+2. Click "Import a project", select the github repo containgin the documentation code.
+3. Follow on screen setup instructions
+
 Remote build instructions
-========================
+=========================
+Follow these instructions to update the docs website.
+
+1. Push doc changes to docs repo
+2. Login to readthedocs.io
+3. Open the project, click "Build version"
+
