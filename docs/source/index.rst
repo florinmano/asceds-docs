@@ -3,16 +3,23 @@ Welcome to ASCEDS's documentation!
 
 .. image:: images/ASCEDSarch.png
   :width: 400
-  :alt: Alternative text
 
-**ASCEDS** is Certificate Distribution System Developed by Florin Manolache at Carnegie Mellon University for interfacing certbot with InCommon SSL certificates, and automatically distributing them to the servers on the network.
+**Automated SSL Certificate Distribution System (ASCEDS)**
+is a distribution system for certificates 
+which can be obtained from a provider offering an ACME interface. 
+The system defines a site containing:
 
-This software assists with setting up an automatic SSL certificate distribution system for certificates which can be obtained from a provider offering an ACME interface. 
-The system consists of
+* one certificate manager which can get SSL certificates for wilcard 
+  hostnames in a set of domains through certbot;
+* a set of managed clients getting automatic certificate renewal or
+  reconfiguration of SANs; services using certificates are 
+  reconfigured/restarted automatically upon renewal;
+* a web interface handling certificates for managed or unmanaged
+  clients.
 
-  - a certificate manager which can get SSL certificates for wildcard hostnames in a set of domains, through certbot;
-  - a set of clients getting automatic certificate renewal or simple manual reconfiguration of SANs; services depending on certificates are reconfigured/restarted automatically upon renewal
-  - a web interface for requesting certificates.
+ASCEDS was developed by Florin Manolache at Carnegie Mellon University 
+for interfacing certbot with InCommon SSL certificates, 
+and automatically distributing them to the servers on the network.
 
 ASCEDS is released under GPLv2 or any later version.
 

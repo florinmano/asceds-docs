@@ -3,6 +3,15 @@ Usage
 
 .. _quickstart:
 
+* The main body of documentation is installed by default in 
+  /usr/share/doc/asceds/doc
+
+* Each script displays its function and usage with the "-h" option.
+* The asceds command lists documentation and status for the current computer.
+* A paper describing the general idea and the functional structure is in
+  the public directory of the web interface, by default in
+  /usr/share/asceds/html/public/asceds.pdf
+  or at https://<your.cert.manager>/public/asceds.pdf
 
 Quick start
 ------------
