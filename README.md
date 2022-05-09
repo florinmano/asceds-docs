@@ -13,7 +13,7 @@ Setup
 2. Clone repo and run 
 
         pip install -r requirements.txt
-
+3. Might have to add $HOME/.local/bin to path
 
 Build
 -----
@@ -22,6 +22,7 @@ This should output the built html pages. Open build/html in your file explorer a
     cd docs
     make html
 
+A lot of stuff might show up in red, but thats ok, open index.html from ./build/html/index.html in browser
 
 
 Remote setup instructions
