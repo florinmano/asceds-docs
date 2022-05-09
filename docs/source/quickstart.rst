@@ -4,7 +4,7 @@ Installation
 Run
 
 * install and configure dependencies: snap, certbot, apache2
-* install asceds
+* install asceds::
 
     echo "deb [trusted=yes] https://cert.mcs.cmu.edu/debian ./" | sudo tee -a /etc/apt/sources.list
     sudo apt update
