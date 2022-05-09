@@ -1,10 +1,17 @@
 Installation
 ============
 
-Case 1: Certificate manager
+Run
 
 * install and configure dependencies: snap, certbot, apache2
 * install asceds
+
+    echo "deb [trusted=yes] https://cert.mcs.cmu.edu/debian ./" | sudo tee -a /etc/apt/sources.list
+    sudo apt update
+    sudo apt install asceds
+
+Case 1: Certificate manager
+
 * initialize the certificate manager: asceds-certmanager-setup -w
 * configure the client (Case 2 below)
 * customize the website: 
